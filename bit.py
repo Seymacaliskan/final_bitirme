@@ -41,7 +41,7 @@ class App(QWidget):
         self.setupMenu()
         self.timer = QTimer()
         self.timer.timeout.connect(self.update_positions)
-        #I CHANGED THE TIME NUMBER IT was 50 an dı did it 5. it was just for the harkeetli cisimler it changed the hareketli cismin hızını.
+        #I CHANGED THE TIME NUMBER IT was 50 
         self.timer.start(10)
         self.show()
 
